@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B944635A1CDC2DC200FE661F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94463511CDC2DC200FE661F /* SVIndefiniteAnimatedView.m */; };
-		B944635B1CDC2DC200FE661F /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94463531CDC2DC200FE661F /* SVProgressAnimatedView.m */; };
-		B944635C1CDC2DC200FE661F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B94463551CDC2DC200FE661F /* SVProgressHUD.bundle */; };
-		B944635D1CDC2DC200FE661F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B94463571CDC2DC200FE661F /* SVProgressHUD.m */; };
-		B944635E1CDC2DC200FE661F /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B94463591CDC2DC200FE661F /* SVRadialGradientLayer.m */; };
+		A0E5FBE6244E9E94008F3489 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E5FBE5244E9E94008F3489 /* CoreBluetooth.framework */; };
 		B944636C1CDC92A600FE661F /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = B944636B1CDC92A600FE661F /* ico180.png */; };
 		B9499D3D1CDB200000542039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9499D3C1CDB200000542039 /* main.m */; };
 		B9499D401CDB200000542039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9499D3F1CDB200000542039 /* AppDelegate.m */; };
@@ -22,21 +18,11 @@
 		B9499D571CDB203500542039 /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = B9499D541CDB203500542039 /* HLPrinter.m */; };
 		B9499D581CDB203500542039 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = B9499D561CDB203500542039 /* UIImage+Bitmap.m */; };
 		B9499D5B1CDB207C00542039 /* SEPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9499D5A1CDB207C00542039 /* SEPrinterManager.m */; };
-		B9499D5D1CDB20A600542039 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9499D5C1CDB20A600542039 /* CoreBluetooth.framework */; };
 		B966B3611CE5C2C600E03487 /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B966B3601CE5C2C600E03487 /* UIWebView+UIImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B94463501CDC2DC200FE661F /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		B94463511CDC2DC200FE661F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		B94463521CDC2DC200FE661F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		B94463531CDC2DC200FE661F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		B94463541CDC2DC200FE661F /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		B94463551CDC2DC200FE661F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		B94463561CDC2DC200FE661F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		B94463571CDC2DC200FE661F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		B94463581CDC2DC200FE661F /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		B94463591CDC2DC200FE661F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		A0E5FBE5244E9E94008F3489 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B944636B1CDC92A600FE661F /* ico180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico180.png; sourceTree = "<group>"; };
 		B9499D381CDB1FFF00542039 /* SEBLEPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEBLEPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9499D3C1CDB200000542039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +40,6 @@
 		B9499D561CDB203500542039 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
 		B9499D591CDB207C00542039 /* SEPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrinterManager.h; sourceTree = "<group>"; };
 		B9499D5A1CDB207C00542039 /* SEPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrinterManager.m; sourceTree = "<group>"; };
-		B9499D5C1CDB20A600542039 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B9499D5E1CDB246B00542039 /* SEBLEConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEBLEConst.h; sourceTree = "<group>"; };
 		B966B35F1CE5C2C600E03487 /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
 		B966B3601CE5C2C600E03487 /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
@@ -65,36 +50,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9499D5D1CDB20A600542039 /* CoreBluetooth.framework in Frameworks */,
+				A0E5FBE6244E9E94008F3489 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B944634F1CDC2DC200FE661F /* SVProgressHUD */ = {
+		A0E5FBE4244E9E94008F3489 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B94463501CDC2DC200FE661F /* SVIndefiniteAnimatedView.h */,
-				B94463511CDC2DC200FE661F /* SVIndefiniteAnimatedView.m */,
-				B94463521CDC2DC200FE661F /* SVProgressAnimatedView.h */,
-				B94463531CDC2DC200FE661F /* SVProgressAnimatedView.m */,
-				B94463541CDC2DC200FE661F /* SVProgressHUD-Prefix.pch */,
-				B94463551CDC2DC200FE661F /* SVProgressHUD.bundle */,
-				B94463561CDC2DC200FE661F /* SVProgressHUD.h */,
-				B94463571CDC2DC200FE661F /* SVProgressHUD.m */,
-				B94463581CDC2DC200FE661F /* SVRadialGradientLayer.h */,
-				B94463591CDC2DC200FE661F /* SVRadialGradientLayer.m */,
+				A0E5FBE5244E9E94008F3489 /* CoreBluetooth.framework */,
 			);
-			path = SVProgressHUD;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B9499D2F1CDB1FFF00542039 = {
 			isa = PBXGroup;
 			children = (
-				B9499D5C1CDB20A600542039 /* CoreBluetooth.framework */,
 				B9499D3A1CDB200000542039 /* SEBLEPrinter */,
 				B9499D391CDB1FFF00542039 /* Products */,
+				A0E5FBE4244E9E94008F3489 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,17 +85,16 @@
 		B9499D3A1CDB200000542039 /* SEBLEPrinter */ = {
 			isa = PBXGroup;
 			children = (
-				B944634F1CDC2DC200FE661F /* SVProgressHUD */,
 				B9499D521CDB201D00542039 /* BLEPrinter */,
 				B9499D3E1CDB200000542039 /* AppDelegate.h */,
 				B9499D3F1CDB200000542039 /* AppDelegate.m */,
-				B944636B1CDC92A600FE661F /* ico180.png */,
 				B9499D411CDB200000542039 /* ViewController.h */,
 				B9499D421CDB200000542039 /* ViewController.m */,
 				B9499D441CDB200000542039 /* Main.storyboard */,
 				B9499D471CDB200000542039 /* Assets.xcassets */,
 				B9499D491CDB200000542039 /* LaunchScreen.storyboard */,
 				B9499D4C1CDB200000542039 /* Info.plist */,
+				B944636B1CDC92A600FE661F /* ico180.png */,
 				B9499D3B1CDB200000542039 /* Supporting Files */,
 			);
 			path = SEBLEPrinter;
@@ -175,17 +150,18 @@
 		B9499D301CDB1FFF00542039 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Halley;
 				TargetAttributes = {
 					B9499D371CDB1FFF00542039 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ASNS7YDT97;
 					};
 				};
 			};
 			buildConfigurationList = B9499D331CDB1FFF00542039 /* Build configuration list for PBXProject "SEBLEPrinter" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -210,7 +186,6 @@
 				B9499D481CDB200000542039 /* Assets.xcassets in Resources */,
 				B9499D461CDB200000542039 /* Main.storyboard in Resources */,
 				B944636C1CDC92A600FE661F /* ico180.png in Resources */,
-				B944635C1CDC2DC200FE661F /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,11 +202,7 @@
 				B9499D401CDB200000542039 /* AppDelegate.m in Sources */,
 				B9499D581CDB203500542039 /* UIImage+Bitmap.m in Sources */,
 				B9499D571CDB203500542039 /* HLPrinter.m in Sources */,
-				B944635D1CDC2DC200FE661F /* SVProgressHUD.m in Sources */,
-				B944635A1CDC2DC200FE661F /* SVIndefiniteAnimatedView.m in Sources */,
 				B9499D3D1CDB200000542039 /* main.m in Sources */,
-				B944635B1CDC2DC200FE661F /* SVProgressAnimatedView.m in Sources */,
-				B944635E1CDC2DC200FE661F /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,18 +232,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -305,18 +287,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -343,9 +336,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASNS7YDT97;
 				INFOPLIST_FILE = SEBLEPrinter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chiyun.SEBLEPrinter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chixyun.SEBLEPrinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -354,9 +348,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASNS7YDT97;
 				INFOPLIST_FILE = SEBLEPrinter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chiyun.SEBLEPrinter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chixyun.SEBLEPrinter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

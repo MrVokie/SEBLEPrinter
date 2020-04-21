@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 #import "SEPrinterManager.h"
-#import "SVProgressHUD.h"
 
 @interface ViewController ()
 
@@ -27,10 +26,11 @@
     
     self.title = @"未连接";
     SEPrinterManager *_manager = [SEPrinterManager sharedInstance];
+    __weak typeof(self) weakSelf = self;
     [_manager startScanPerpheralTimeout:10 Success:^(NSArray<CBPeripheral *> *perpherals,BOOL isTimeout) {
         NSLog(@"perpherals:%@",perpherals);
-        _deviceArray = perpherals;
-        [_tableView reloadData];
+        weakSelf.deviceArray = perpherals;
+        [weakSelf.tableView reloadData];
     } failure:^(SEScanError error) {
          NSLog(@"error:%ld",(long)error);
     }];
@@ -116,42 +116,6 @@
         NSLog(@"写入结：%d---错误:%@",completion,error);
     }];
     
-    //方式二：
-//    [_manager prepareForPrinter];
-//    [_manager appendText:title alignment:HLTextAlignmentCenter fontSize:HLFontSizeTitleBig];
-//    [_manager appendText:str1 alignment:HLTextAlignmentCenter];
-////    [_manager appendBarCodeWithInfo:@"RN3456789012"];
-//    [_manager appendSeperatorLine];
-//    
-//    [_manager appendTitle:@"时间:" value:@"2016-04-27 10:01:50" valueOffset:150];
-//    [_manager appendTitle:@"订单:" value:@"4000020160427100150" valueOffset:150];
-//    [_manager appendText:@"地址:深圳市南山区学府路东深大店" alignment:HLTextAlignmentLeft];
-//    
-//    [_manager appendSeperatorLine];
-//    [_manager appendLeftText:@"商品" middleText:@"数量" rightText:@"单价" isTitle:YES];
-//    CGFloat total = 0.0;
-//    NSDictionary *dict1 = @{@"name":@"铅笔",@"amount":@"5",@"price":@"2.0"};
-//    NSDictionary *dict2 = @{@"name":@"橡皮",@"amount":@"1",@"price":@"1.0"};
-//    NSDictionary *dict3 = @{@"name":@"笔记本",@"amount":@"3",@"price":@"3.0"};
-//    NSArray *goodsArray = @[dict1, dict2, dict3];
-//    for (NSDictionary *dict in goodsArray) {
-//        [_manager appendLeftText:dict[@"name"] middleText:dict[@"amount"] rightText:dict[@"price"] isTitle:NO];
-//        total += [dict[@"price"] floatValue] * [dict[@"amount"] intValue];
-//    }
-//    
-//    [_manager appendSeperatorLine];
-//    NSString *totalStr = [NSString stringWithFormat:@"%.2f",total];
-//    [_manager appendTitle:@"总计:" value:totalStr];
-//    [_manager appendTitle:@"实收:" value:@"100.00"];
-//    NSString *leftStr = [NSString stringWithFormat:@"%.2f",100.00 - total];
-//    [_manager appendTitle:@"找零:" value:leftStr];
-//    
-//    [_manager appendFooter:nil];
-//    
-////    [_manager appendImage:[UIImage imageNamed:@"ico180"] alignment:HLTextAlignmentCenter maxWidth:300];
-//    
-//    [_manager printWithResult:nil];
-    
 }
 
 #pragma mark - UITableViewDataSource
@@ -181,10 +145,10 @@
     
     [[SEPrinterManager sharedInstance] connectPeripheral:peripheral completion:^(CBPeripheral *perpheral, NSError *error) {
         if (error) {
-            [SVProgressHUD showErrorWithStatus:@"连接失败"];
+            NSLog(@"连接失败");
         } else {
-            self.title = @"已连接";
-            [SVProgressHUD showSuccessWithStatus:@"连接成功"];
+            self.title = [NSString stringWithFormat:@"已连接:%@", perpheral.name];
+            NSLog(@"连接成功");
         }
     }];
     
